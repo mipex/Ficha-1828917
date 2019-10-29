@@ -18,8 +18,9 @@ public class Senasalud2 {
         nombre=nomb.next();
         System.out.println("Su nombre es:"+""+nombre);
         
+     Scanner apelli= new Scanner (System.in);
         System.out.println("Digite su apellido");
-        apellido=nomb.next();
+        apellido=apelli.next();
         System.out.println("Su apellido es:"+""+apellido);
     
         
